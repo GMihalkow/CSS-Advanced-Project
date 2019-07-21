@@ -1,0 +1,34 @@
+.main-footer {
+    position: relative;
+    width: 100%;
+    background-color: #222;
+    color: #fff;
+}
+
+.main-footer-footer {
+    text-align: center;
+    padding: 0.5rem;
+    border-top: 1px solid #fff;
+}
+
+.main-footer-body {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 80%;
+    height: 200px;
+}
+
+.main-footer-body > .footer-info {
+    padding: 1rem;
+    width: 30rem;
+}
+
+.main-footer-body > .footer-info > h5 {
+    margin: 0.5rem 0;
+}
+
+.main-footer-body > .footer-info > ul {
+    list-style: none;
+}

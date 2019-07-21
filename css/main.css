@@ -1,0 +1,11 @@
+body {
+    height: 50rem;
+    position: relative;
+    background: #000;
+}
+
+main {
+    color: #fff;
+    background-color: inherit;
+    height: 80%;
+}

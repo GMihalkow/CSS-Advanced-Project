@@ -1,5 +1,6 @@
 :root {
     --font-size-regular: 16px;
-    --font-size-medium: 18px;
-    --font-size-big: 20px;
+    --font-size-medium: 20px;
+    --font-size-big: 22px;
+    --nav-menu-buttons-default-color: #999;
 }

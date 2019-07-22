@@ -3,7 +3,7 @@
     width: 100%;
     margin: 0 auto;
     flex: 0 0 auto;
-    background-color: #fff;
+    background-color: var(--nav-menu-bg-default-color, #fff);
     font-size: var(--font-size-medium, 18px);
 }
 
@@ -15,7 +15,7 @@
     color: #fff;
     position: absolute;
     left:0;
-    background-color: coral;
+    background-color: var(--site-logo-bg-default-color, coral);
     top: 1rem;
 }
 
@@ -45,7 +45,7 @@
 }
 
 .nav > ul > li > a{
-    color: var(--nav-menu-buttons-default-color, #999);
+    color: var(--nav-menu-buttons-text-default-color, #999);
     text-decoration: none;
 }
 

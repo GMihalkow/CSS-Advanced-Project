@@ -1,14 +1,14 @@
 .main-footer {
     position: relative;
     width: 100%;
-    background-color: #222;
-    color: #fff;
+    background-color: var(--footer-main-default-color, #222);
+    color: var(--footer-main-text-defaulf-color, #fff);
 }
 
 .main-footer-footer {
     text-align: center;
     padding: 0.5rem;
-    border-top: 1px solid #fff;
+    border-top: 1px solid var(--footer-main-text-defaulf-color, #fff);
 }
 
 .main-footer-body {

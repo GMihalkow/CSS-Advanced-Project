@@ -1,6 +1,13 @@
 :root {
+    /* typography variables */
     --font-size-regular: 16px;
     --font-size-medium: 20px;
     --font-size-big: 22px;
-    --nav-menu-buttons-default-color: #999;
+
+    /* color variables */
+    --nav-menu-bg-default-color: #fff;
+    --nav-menu-buttons-text-default-color: #999;
+    --footer-main-default-color: #222;
+    --footer-main-text-defaulf-color: #fff;
+    --site-logo-bg-default-color: coral;
 }

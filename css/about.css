@@ -1,0 +1,35 @@
+.about-section {
+    display: flex;
+    width: 35rem;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-contact-section {
+    display: flex;
+    width: 35rem;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-bio > p {
+    padding: 1rem;
+}
+
+.about-contact-section > .about-contact {
+    width: 15rem;
+    margin: 2rem 0;
+}
+
+.about-contact-section > .about-contact > h5 {
+    margin-bottom: 0.5rem;
+    color: var(--site-logo-bg-default-color, coral);
+}
+
+.about-contact-section > .about-contact > p {
+    font-size: var(--font-size-medium, 20px);
+}

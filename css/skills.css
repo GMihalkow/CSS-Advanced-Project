@@ -1,0 +1,47 @@
+.skill-container {
+    width: 25rem;
+}
+
+.skills-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 75rem;
+    height: 25rem;
+    margin-top: auto;
+}
+
+.left-skill-part {
+    border: 1px solid white;
+    text-align: end;
+    padding: 3rem;
+}
+
+.right-skill-part {
+    border: 1px solid white;
+    text-align: start;
+    padding: 3rem;
+}
+
+.left-skill-part > h3 {
+    margin-bottom: 1rem;
+    font-size: 24px;
+}
+
+.right-skill-part > h3 {
+    font-size: 24px;
+    margin-bottom: 1rem;    
+}
+
+.content-wrapper > header {
+    background-color: white;
+    color:black;
+    width: 75rem;
+    margin-bottom: auto;
+    text-align: center;
+    margin-top: 0.5rem;
+    padding: 1rem;
+}
+
+.content-wrapper > header > h2 {
+    font-size: 30px;
+}

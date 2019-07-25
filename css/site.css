@@ -9,6 +9,7 @@
 @import url('footer.css');
 @import url('index.css');
 @import url('about.css');
+@import url('skills.css');
 
 *, *:after, *:before {
     box-sizing: border-box;

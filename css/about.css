@@ -1,6 +1,6 @@
 .about-section {
     display: flex;
-    width: 35rem;
+    width: 40rem;
     flex-wrap: wrap;
     align-content: flex-start;
     align-items: center;
@@ -22,7 +22,7 @@
 
 .about-contact-section > .about-contact {
     width: 15rem;
-    margin: 2rem 0;
+    margin: 2rem auto;
 }
 
 .about-contact-section > .about-contact > h5 {

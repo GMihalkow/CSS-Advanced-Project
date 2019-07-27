@@ -3,7 +3,7 @@
     width: 85%;
     padding: 1rem;
     height: 30rem;
-    margin: 5rem auto;
+    margin: 5rem auto 0 auto;
     flex-wrap: wrap;
 }
 
@@ -21,16 +21,18 @@
     cursor: pointer;
 }
 
-.content-wrapper > .intro-image-section{
-    width: 40rem;
+.content-wrapper > .intro-image-section{ 
+    width: 60%;
     background-image: url('../images/desk.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     border: none;
     box-shadow: 0 0 60px black inset;
 }
 
 .content-wrapper > .intro-section {
     display: flex;
-    width: 35rem;
+    width: 40%;
     flex-wrap: wrap;
     align-content: flex-start;
 }

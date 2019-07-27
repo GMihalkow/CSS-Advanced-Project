@@ -1,6 +1,6 @@
 .about-section {
     display: flex;
-    width: 40rem;
+    width: 50%;
     flex-wrap: wrap;
     align-content: flex-start;
     align-items: center;
@@ -9,7 +9,7 @@
 
 .about-contact-section {
     display: flex;
-    width: 35rem;
+    width: 50%;
     flex-wrap: wrap;
     align-content: flex-start;
     align-items: center;

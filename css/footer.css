@@ -1,6 +1,7 @@
 .main-footer {
     position: relative;
     width: 100%;
+    margin-top: 10rem;
     background-color: var(--footer-main-default-color, #222);
     color: var(--footer-main-text-defaulf-color, #fff);
 }

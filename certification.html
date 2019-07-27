@@ -1,0 +1,33 @@
+---
+layout: main
+title: Certification
+permalink: /certification/
+---
+
+<section class="content-wrapper">
+    <header>
+        <h2>Certification</h2>
+    </header>
+    <section class="cerficates-section w3-row-padding">
+        {% for image in site.static_files %}
+            {% if image.path contains 'images' and image.path contains 'cert'  %}
+                <img src="{{ site.baseurl }}{{ image.path }}" onClick="toggleModal(this)" alt="image" />
+            {% endif %}
+        {% endfor %}
+        {% for image in site.static_files %}
+            {% if image.path contains 'images' and image.path contains 'cert'  %}
+                <img src="{{ site.baseurl }}{{ image.path }}" onClick="toggleModal(this)" alt="image" />
+            {% endif %}
+        {% endfor %}
+        {% for image in site.static_files %}
+            {% if image.path contains 'images' and image.path contains 'cert'  %}
+                <img src="{{ site.baseurl }}{{ image.path }}" onClick="toggleModal(this)" alt="image" />
+            {% endif %}
+        {% endfor %}
+    </section>
+</section>
+
+<div id="modal" onClick="displayNone(this)" class="modal">
+    <span onClick="cancelModal()" class="modal-cancel-btn">&times;</span>
+    <img id="modal-image" class="modal-image">
+</div>

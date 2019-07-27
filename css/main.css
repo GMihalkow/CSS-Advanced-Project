@@ -1,5 +1,5 @@
 body {
-    height: 50rem;
+    height: 100vh;
     position: relative;
     background: #000;
 }
@@ -7,5 +7,5 @@ body {
 main {
     color: #fff;
     background-color: inherit;
-    height: 80%;
+    height: 100%;
 }

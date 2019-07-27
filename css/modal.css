@@ -1,0 +1,37 @@
+.modal {
+    z-index: 3;
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.4);
+} 
+
+.modal-image {
+    height: 650px; 
+    width:auto;
+    top: 5%;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    position: absolute;
+}
+
+.modal-cancel-btn {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: 30px;
+    background-color: #f00;
+}
+
+.modal-cancel-btn:hover {
+    background-color: rgba(255, 0, 0, 0.5);
+    cursor: pointer;
+}

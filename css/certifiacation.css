@@ -1,0 +1,16 @@
+.cerficates-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    margin-top: 2rem;
+    overflow: auto;
+    height: 45rem;
+}
+
+.cerficates-section > img {
+    display: block;
+    margin: 0 auto;
+    height: 400px;
+    padding: 1rem;  
+    width: auto;
+}

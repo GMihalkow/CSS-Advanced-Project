@@ -1,16 +1,35 @@
 .cerficates-section {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 100%;
-    margin-top: 2rem;
+    margin: 2rem;
     overflow: auto;
-    height: 45rem;
+    height: 35rem;
+}
+
+.content-wrapper > .certificates-header {
+    background-color: #fff;
+    color: #000;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
 }
 
 .cerficates-section > img {
     display: block;
     margin: 0 auto;
-    height: 400px;
+    height: 350px;
     padding: 1rem;  
     width: auto;
+    transition: transform 3s;
+}
+
+.cerficates-section > img:hover {
+    cursor:pointer;
+    opacity: 0.7;
+    transform: scale(1.1);
+}
+
+.content-wrapper > .certificates-header > h2 {
+    font-size: 30px;
 }

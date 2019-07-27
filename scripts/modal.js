@@ -7,6 +7,6 @@ function displayNone(element) {
     element.style.display = "none";
 }
 
-function cancelModal(){
+function cancelModal() {
     document.getElementById('modal').style.display = "none";
 }

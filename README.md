@@ -1,2 +1,2 @@
 # CSS-Advanced-Project
-This is a project for and upcoming exam.
+This is a project for an upcoming exam.

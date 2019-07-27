@@ -16,6 +16,10 @@
     justify-content: center;
 }
 
+.about-footer {
+    width: 100%;
+}
+
 .about-bio > p {
     padding: 1rem;
 }
